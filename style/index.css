@@ -1,0 +1,36 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .sub-stars img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+body {
+  background: url("../Images/png/galáxia-galaxy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stars {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+
+.heading {
+  text-align: center;
+  color: rgba(236, 121, 13, 0.972);
+}
+
+.sub-stars {
+  color: darksalmon;
+}
